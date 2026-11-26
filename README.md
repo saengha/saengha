@@ -10,6 +10,7 @@ Building **deterministic AI tooling, local runtimes, and web products** — repl
 | --- | --- |
 | **[lodsmith](https://github.com/saengha/lodsmith)** | Local, recipe-driven low-poly prop generator for Blender 4.2+. 136 JSON recipes across 18 sets with exact triangle budgets — no cloud mesh API, no arbitrary `bpy` exec. |
 | **[software-control-ir](https://github.com/saengha/software-control-ir)** | Semantic IR for AI-controlled software (`State → Validation → Revision → Recovery`), benchmarked across 360 live runs (incl. live LibreOffice Impress UNO, 20/20 `host_drift` recovery) and a CI-gated 30-task safety eval suite (30/30 pass, 0 safety violations vs. 16/30 and 29 violations on free-exec). [Technical Write-up](https://github.com/saengha/software-control-ir/blob/main/WRITEUP.md) |
+| **[dual-3090-exl3-bench](https://github.com/saengha/dual-3090-exl3-bench)** | Zero-dependency Python inference benchmark harness for custom water-cooled Dual RTX 3090 (2×24 GB) running TabbyAPI (`ExLlamaV3`) — measures TTFT, decode/aggregate TPS, peak VRAM, board power, temperature, and Joules/token across single- and dual-GPU concurrency sweeps. |
 
 ---
 
