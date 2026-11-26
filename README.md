@@ -9,7 +9,7 @@ Building **deterministic AI tooling, local runtimes, and web products** — repl
 | Project | Description |
 | --- | --- |
 | **[lodsmith](https://github.com/saengha/lodsmith)** | Local, recipe-driven low-poly prop generator for Blender 4.2+. 136 JSON recipes across 18 sets with exact triangle budgets — no cloud mesh API, no arbitrary `bpy` exec. |
-| **[software-control-ir](https://github.com/saengha/software-control-ir)** | Experimental semantic IR for AI-controlled software (`State → Validation → Revision → Recovery`), benchmarked against a live LibreOffice Impress UNO adapter. |
+| **[software-control-ir](https://github.com/saengha/software-control-ir)** | Semantic IR for AI-controlled software (`State → Validation → Revision → Recovery`), benchmarked across 360 live runs (incl. live LibreOffice Impress UNO, 20/20 `host_drift` recovery) and a CI-gated 30-task safety eval suite (30/30 pass, 0 safety violations vs. 16/30 and 29 violations on free-exec). [Technical Write-up](https://github.com/saengha/software-control-ir/blob/main/WRITEUP.md) |
 
 ---
 
